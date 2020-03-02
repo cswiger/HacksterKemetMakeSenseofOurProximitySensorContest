@@ -22,7 +22,7 @@ PubSubClient client(espClient);
 void setup() {
   // Serial for debug
   Serial.begin(115200);
-  // initialize digital pin 2 GPIO2 as output to the Crydom Solid State Relay
+  // initialize digital pin 5 GPIO5 as output to the Crydom Solid State Relay
   pinMode(5, OUTPUT);
   WiFi.begin(ssid, password); 
   while (WiFi.status() != WL_CONNECTED) {
